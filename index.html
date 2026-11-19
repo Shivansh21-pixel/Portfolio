@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivansh Pandey — AI/ML & Systems Engineer</title>
+  <meta name="description" content="Portfolio of Shivansh Pandey — AI & ML undergraduate at AKTU (8.7 CGPA), SWE Intern at Landis+Gyr, building RAG pipelines, C++17 vector search engines, and PyTorch deep vision models." />
+  <meta name="author" content="Shivansh Pandey" />
+  <meta name="theme-color" content="#050505" />
+
+  <!-- Custom Vector Core SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.svg" />
+
+  <!-- OpenGraph / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shivanshportfolio-sigma.vercel.app/" />
+  <meta property="og:title" content="Shivansh Pandey — AI/ML & Systems Engineer" />
+  <meta property="og:description" content="SWE Intern @ Landis+Gyr · Building RAG pipelines, C++17 vector search & DPI engines, and PyTorch models evaluated against baselines." />
+  <meta property="og:image" content="https://shivanshportfolio-sigma.vercel.app/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shivansh Pandey — AI/ML & Systems Engineer" />
+  <meta name="twitter:description" content="Interactive Engineering Lab: OlemoN Vector DB, NAFNet-Lite Wafer Restoration, and WireSpy C++17 DPI." />
+  <meta name="twitter:image" content="https://shivanshportfolio-sigma.vercel.app/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 2px Reading Scroll Progress Bar -->
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+  </div>
+
+  <!-- Subtle Tactile Film Grain Overlay -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- Subtle Editorial Guide Lines -->
+  <div class="editorial-guides" aria-hidden="true">
+    <div class="guide-inner"></div>
+  </div>
+
+  <!-- Floating Navigation -->
+  <header class="navbar-wrap">
+    <nav class="navbar" aria-label="Primary Navigation">
+      <a href="#top" class="brand" aria-label="Shivansh Pandey Home">
+        <img src="favicon.svg" alt="" class="brand-icon" width="22" height="22" />
+        <span class="brand-mark">SP.</span>
+        <span class="ist-clock" id="istClock" title="Indian Standard Time">IST --:--:--</span>
+      </a>
+
+      <div class="nav-links" id="desktopNav">
+        <a href="#lab" data-section="lab">Lab</a>
+        <a href="#experience" data-section="experience">Experience</a>
+        <a href="#projects" data-section="projects">Projects</a>
+        <a href="#skills" data-section="skills">Stack</a>
+        <a href="#certifications" data-section="certifications">Certs</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark and light theme" title="Toggle theme (T)">
+          <svg class="sun-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="moon-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="cmd-btn" id="openCmd" aria-label="Open Command Palette" title="Command Palette (⌘K or /)">
+          <span>Menu</span>
+          <kbd>⌘K</kbd>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <!-- Hero Section -->
+    <section class="hero reveal">
+      <div class="status-pill">
+        <span class="pulse-dot"></span>
+        <span>SWE Intern @ Landis+Gyr · Open to AI/ML &amp; Systems Roles</span>
+      </div>
+
+      <h1 class="hero-title">
+        Engineering <span class="serif-italic">intelligent</span> systems,<br />
+        from vector search to <span class="serif-italic">deep vision</span>.
+      </h1>
+
+      <p class="hero-sub">
+        I’m <strong>Shivansh Pandey</strong>, a B.Tech. CSE (AI &amp; ML) undergraduate at AKTU (8.7 CGPA).
+        I build RAG pipelines, C++17 search &amp; networking engines, and PyTorch models evaluated rigorously against baselines—with a keen focus on AI for science, healthcare, and laboratories.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#lab" class="btn btn-primary">Explore Interactive Lab ↓</a>
+        <a href="Shivansh_Pandey_Resume.pdf" download="Shivansh_Pandey_Resume.pdf" class="btn btn-secondary">Download PDF ↓</a>
+        <button class="btn btn-ghost" id="openResumeModal">Quick Preview</button>
+        <a href="https://github.com/Shivansh21-pixel" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/shivansh-pandey-8330b5279/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LinkedIn ↗</a>
+      </div>
+
+      <div class="hero-metrics">
+        <div class="metric-item">
+          <span class="metric-val">8.7<span class="metric-dim">/10</span></span>
+          <span class="metric-lbl">B.Tech CGPA (AKTU)</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">500+</span>
+          <span class="metric-lbl">DSA Problems Solved</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">28.79 <span class="metric-dim">dB</span></span>
+          <span class="metric-lbl">NAFNet-Lite PSNR</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">768-d</span>
+          <span class="metric-lbl">OlemoN RAG Vector Space</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Engineering Lab -->
+    <section id="lab" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">01 / INTERACTIVE LAB</span>
+          <h2 class="section-title">Systems <span class="serif-italic">in motion</span></h2>
+        </div>
+        <div class="lab-tabs" role="tablist" aria-label="Interactive Demos">
+          <button class="lab-tab active" role="tab" aria-selected="true" data-tab="olemon">OlemoN Vector DB</button>
+          <button class="lab-tab" role="tab" aria-selected="false" data-tab="nafnet">NAFNet-Lite Vision</button>
+          <button class="lab-tab" role="tab" aria-selected="false" data-tab="wirespy">WireSpy DPI</button>
+        </div>
+      </div>
+
+      <!-- Lab 1: OlemoN -->
+      <div class="lab-panel active spotlight-card" id="panel-olemon">
+        <div class="lab-toolbar">
+          <div class="toolbar-group">
+            <label>Index:</label>
+            <div class="segmented" id="algoSwitch">
+              <button class="seg-btn active" data-algo="HNSW">HNSW</button>
+              <button class="seg-btn" data-algo="KD-Tree">KD-Tree</button>
+              <button class="seg-btn" data-algo="Brute K-NN">Brute K-NN</button>
+            </div>
+          </div>
+          <div class="toolbar-group">
+            <label>Metric:</label>
+            <div class="segmented" id="metricSwitch">
+              <button class="seg-btn active" data-metric="Cosine">Cosine</button>
+              <button class="seg-btn" data-metric="Euclidean">Euclidean</button>
+              <button class="seg-btn" data-metric="Dot">Dot</button>
+            </div>
+          </div>
+          <div class="toolbar-group">
+            <label>Top-K:</label>
+            <div class="segmented" id="topKSwitch">
+              <button class="seg-btn" data-k="3">K=3</button>
+              <button class="seg-btn active" data-k="5">K=5</button>
+              <button class="seg-btn" data-k="8">K=8</button>
+            </div>
+            <button class="seg-btn replay-btn" id="randomizeQuery" title="Drop random query vector">↻ Random</button>
+          </div>
+          <a href="https://olemo-n-ai-vector-database-local-ra.vercel.app/" target="_blank" rel="noopener noreferrer" class="lab-ext-link">Live Demo ↗</a>
+        </div>
+
+        <div class="prompt-chips" id="promptChips">
+          <span class="mono chip-lbl">Sample queries:</span>
+          <button class="chip-btn mono" data-qx="0.24" data-qy="0.30">"HNSW graph layers"</button>
+          <button class="chip-btn mono" data-qx="0.74" data-qy="0.34">"Llama 3.2 RAG context"</button>
+          <button class="chip-btn mono" data-qx="0.50" data-qy="0.76">"C++17 SIMD dot product"</button>
+          <button class="chip-btn mono" data-qx="0.38" data-qy="0.54">"768-d PCA projection"</button>
+        </div>
+
+        <div class="olemon-grid">
+          <div class="canvas-wrap">
+            <canvas id="olemonCanvas"></canvas>
+            <span class="canvas-hint">Click or drag canvas to project a 768-d query vector (HiDPI 2D PCA)</span>
+          </div>
+          <div class="lab-stats-col">
+            <div class="stat-box">
+              <span class="stat-k">RETRIEVAL ENGINE</span>
+              <span class="stat-v mono" id="olemonAlgoStat">HNSW · Cosine · K=5</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-k">EST. QUERY LATENCY</span>
+              <span class="stat-v mono" id="olemonLatency">0.42 ms</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-k" id="olemonTopKHeader">TOP-5 NEAREST CHUNKS</span>
+              <ul class="neighbor-list mono" id="olemonNeighbors"></ul>
+            </div>
+            <p class="lab-note">Built in C++17 with Ollama, 768-dim embeddings, Llama 3.2 RAG pipeline, and REST APIs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lab 2: NAFNet-Lite -->
+      <div class="lab-panel spotlight-card" id="panel-nafnet">
+        <div class="lab-toolbar">
+          <div class="toolbar-group">
+            <span class="mono badge-outline">PSNR: 28.79 dB</span>
+            <span class="mono badge-outline">SSIM: 0.7709</span>
+            <span class="mono badge-outline">+0.9 dB vs Tiny CNN</span>
+          </div>
+          <a href="https://github.com/Shivansh21-pixel/KLA-image-restoration" target="_blank" rel="noopener noreferrer" class="lab-ext-link">GitHub Repo ↗</a>
+        </div>
+
+        <div class="nafnet-wrap">
+          <div class="compare-stage" id="compareStage">
+            <canvas id="waferRestored"></canvas>
+            <div class="compare-overlay" id="compareOverlay">
+              <canvas id="waferDegraded"></canvas>
+            </div>
+            <div class="compare-handle" id="compareHandle">
+              <div class="handle-knob">⇄</div>
+            </div>
+            <span class="stage-tag tag-left mono">Degraded Input (Noisy 1x)</span>
+            <span class="stage-tag tag-right mono">NAFNet-Lite Output (Denoised 2x)</span>
+          </div>
+          <input type="range" min="5" max="95" value="50" id="compareSlider" class="sr-slider" aria-label="Before and after image comparison slider" />
+          <p class="lab-note">Drag slider to inspect denoising &amp; 2x PixelShuffle upscaling trained for 50 epochs in PyTorch &amp; CUDA.</p>
+        </div>
+      </div>
+
+      <!-- Lab 3: WireSpy DPI -->
+      <div class="lab-panel spotlight-card" id="panel-wirespy">
+        <div class="lab-toolbar">
+          <div class="toolbar-group">
+            <div class="segmented" id="dpiFilter">
+              <button class="seg-btn active" data-filter="ALL">All (77)</button>
+              <button class="seg-btn" data-filter="FORWARD">Forwarded (69)</button>
+              <button class="seg-btn" data-filter="DROP">Dropped (8)</button>
+            </div>
+            <button class="seg-btn replay-btn" id="replayDpi">↻ Replay</button>
+          </div>
+          <div class="toolbar-group">
+            <input type="search" id="dpiSearch" class="dpi-search mono" placeholder="Search host, TLS, 0x..." aria-label="Filter WireSpy packets" />
+            <a href="https://shivansh21-pixel.github.io/WireSpy/" target="_blank" rel="noopener noreferrer" class="lab-ext-link">Live Site ↗</a>
+          </div>
+        </div>
+
+        <!-- Visual Ratio Stats Bar -->
+        <div class="dpi-ratio-wrap">
+          <div class="dpi-ratio-labels mono">
+            <span><span class="dot-ok"></span> 69 Forwarded (89.6%)</span>
+            <span id="dpiMatchCount" class="muted">Showing 77 / 77</span>
+            <span>8 Dropped (10.4%) <span class="dot-drop"></span></span>
+          </div>
+          <div class="dpi-ratio-bar" aria-label="69 forwarded versus 8 dropped packets">
+            <div class="ratio-fwd" style="width: 89.61%"></div>
+            <div class="ratio-drop" style="width: 10.39%"></div>
+          </div>
+        </div>
+
+        <div class="dpi-table-wrap">
+          <table class="dpi-table mono">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>5-Tuple Hash</th>
+                <th>Protocol</th>
+                <th>SNI / HTTP Host</th>
+                <th>Bytes</th>
+                <th>Verdict</th>
+              </tr>
+            </thead>
+            <tbody id="dpiBody"></tbody>
+          </table>
+        </div>
+        <p class="lab-note">Multithreaded C++17 Deep Packet Inspection parsing Ethernet, IPv4, TCP, UDP, TLS/SNI &amp; HTTP Host headers.</p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">02 / EXPERIENCE</span>
+          <h2 class="section-title">Where I’ve <span class="serif-italic">shipped</span></h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="exp-card spotlight-card">
+          <div class="exp-top">
+            <div>
+              <h3>Software Engineering Intern</h3>
+              <p class="exp-org">Landis+Gyr · Noida, India</p>
+            </div>
+            <span class="mono exp-date">June 2026 — Present</span>
+          </div>
+          <ul class="exp-list">
+            <li>Compared <strong>4.2/4.2 MR1 and 4.3 releases</strong> using SQL/PostgreSQL to validate data and identify missing and additional Event, Meter Model, Reading Type, CIM, and OBIS records.</li>
+            <li>Supported <strong>Emerge 4.3 release administration</strong> across DAS, Non-DAS, DLMS, and E2E DLMS endpoints, validating EventTypes, Data Definitions, Reading Types, and CIM mappings.</li>
+            <li>Analyzed <strong>Liquibase seeding scripts</strong> and CIM tooling to trace release changes; prepared Excel deliverables reconciling Reading Type and OBIS mappings for ANSI, DLMS, and E2E DLMS.</li>
+            <li>Contributed to the <strong>.NET 10 migration</strong> of internal NuGet packages, updating project configuration and build scripts and managing dependencies through JFrog Artifactory and Git/GitLab in a collaborative DevOps workflow.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">.NET 10</span>
+            <span class="tag">Liquibase</span>
+            <span class="tag">JFrog Artifactory</span>
+            <span class="tag">GitLab CI/CD</span>
+            <span class="tag">CIM / OBIS</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">03 / SELECTED PROJECTS</span>
+          <h2 class="section-title">Built from <span class="serif-italic">first principles</span></h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: OlemoN -->
+        <article class="project-card spotlight-card">
+          <div class="project-head">
+            <span class="mono project-year">2026</span>
+            <a href="https://olemo-n-ai-vector-database-local-ra.vercel.app/" target="_blank" rel="noopener noreferrer" class="ext-pill">Visit App ↗</a>
+          </div>
+          <h3>OlemoN — AI Vector Database &amp; RAG</h3>
+          <p class="project-desc">
+            Custom C++17 vector search engine benchmarking HNSW, KD-Tree, and brute-force K-NN across three distance metrics, paired with an end-to-end local RAG pipeline powered by Ollama, 768-dim embeddings, and Llama 3.2.
+          </p>
+          <details class="arch-details">
+            <summary>Architecture &amp; Pipeline</summary>
+            <svg class="arch-svg" viewBox="0 0 320 56" fill="none" aria-label="OlemoN architecture flow">
+              <rect x="2" y="12" width="60" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="32" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">Query</text>
+              <path d="M64 28H80" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="82" y="12" width="68" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="116" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">768-d Emb</text>
+              <path d="M152 28H168" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="170" y="12" width="64" height="32" rx="6" stroke="currentColor" stroke-opacity="0.55"/>
+              <text x="202" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">HNSW C++</text>
+              <path d="M236 28H252" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="254" y="12" width="64" height="32" rx="6" stroke="#4ade80" stroke-opacity="0.7"/>
+              <text x="286" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">Llama 3.2</text>
+            </svg>
+            <ul>
+              <li>Implemented HNSW graph indexing, KD-Tree partitioning, and exact K-NN for embedding retrieval trade-offs.</li>
+              <li>Exposed document ingestion and retrieval via REST APIs with interactive PCA embedding space visualization.</li>
+            </ul>
+          </details>
+          <div class="tag-row">
+            <span class="tag">C++17</span><span class="tag">HNSW</span><span class="tag">Ollama</span><span class="tag">Llama 3.2</span><span class="tag">REST</span>
+          </div>
+        </article>
+
+        <!-- Project 2: NAFNet-Lite -->
+        <article class="project-card spotlight-card">
+          <div class="project-head">
+            <span class="mono project-year">2026</span>
+            <a href="https://github.com/Shivansh21-pixel/KLA-image-restoration" target="_blank" rel="noopener noreferrer" class="ext-pill">GitHub ↗</a>
+          </div>
+          <h3>Semiconductor Image Restoration — NAFNet-Lite</h3>
+          <p class="project-desc">
+            Lightweight NAFNet-inspired multi-scale encoder-decoder with SimpleGate, skip connections, and PixelShuffle for denoising and 2x super-resolution of degraded semiconductor wafer inspection imagery.
+          </p>
+          <details class="arch-details">
+            <summary>Architecture &amp; Metrics</summary>
+            <svg class="arch-svg" viewBox="0 0 320 56" fill="none" aria-label="NAFNet-Lite architecture flow">
+              <rect x="2" y="12" width="60" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="32" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">Noisy 1x</text>
+              <path d="M64 28H80" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="82" y="12" width="76" height="32" rx="6" stroke="currentColor" stroke-opacity="0.55"/>
+              <text x="120" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">SimpleGate</text>
+              <path d="M160 28H176" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="178" y="12" width="68" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="212" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">PixShuffle</text>
+              <path d="M248 28H260" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="262" y="12" width="56" height="32" rx="6" stroke="#4ade80" stroke-opacity="0.7"/>
+              <text x="290" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">Clean 2x</text>
+            </svg>
+            <ul>
+              <li>Trained for 50 epochs on CUDA; achieved <strong>28.79 dB PSNR</strong> and <strong>0.7709 SSIM</strong>.</li>
+              <li>Delivered a verified <strong>+0.9 dB PSNR gain</strong> over a Tiny CNN baseline under controlled evaluation.</li>
+            </ul>
+          </details>
+          <div class="tag-row">
+            <span class="tag">PyTorch</span><span class="tag">OpenCV</span><span class="tag">NumPy</span><span class="tag">CUDA</span>
+          </div>
+        </article>
+
+        <!-- Project 3: WireSpy -->
+        <article class="project-card spotlight-card">
+          <div class="project-head">
+            <span class="mono project-year">2026</span>
+            <a href="https://shivansh21-pixel.github.io/WireSpy/" target="_blank" rel="noopener noreferrer" class="ext-pill">Live Demo ↗</a>
+          </div>
+          <h3>WireSpy — Packet Analyzer &amp; DPI</h3>
+          <p class="project-desc">
+            Multithreaded Deep Packet Inspection engine parsing Ethernet, IPv4, TCP, and UDP frames, tracking active network flows via five-tuple hashing and classifying TLS/SNI and HTTP Host traffic.
+          </p>
+          <details class="arch-details">
+            <summary>Architecture &amp; Benchmark</summary>
+            <svg class="arch-svg" viewBox="0 0 320 56" fill="none" aria-label="WireSpy DPI flow">
+              <rect x="2" y="12" width="58" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="31" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">L2-L4</text>
+              <path d="M62 28H78" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="80" y="12" width="68" height="32" rx="6" stroke="currentColor" stroke-opacity="0.35"/>
+              <text x="114" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">5-Tuple</text>
+              <path d="M150 28H166" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="168" y="12" width="72" height="32" rx="6" stroke="currentColor" stroke-opacity="0.55"/>
+              <text x="204" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">TLS / SNI</text>
+              <path d="M242 28H256" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.2"/>
+              <rect x="258" y="12" width="60" height="32" rx="6" stroke="#4ade80" stroke-opacity="0.7"/>
+              <text x="288" y="31" text-anchor="middle" fill="currentColor" font-size="8.5" font-family="JetBrains Mono">Fwd/Drop</text>
+            </svg>
+            <ul>
+              <li>Evaluated on a 77-packet benchmark capture: <strong>69 forwarded</strong>, <strong>8 dropped</strong> by policy rules.</li>
+              <li>Zero-copy style header dissection with concurrent flow table management in modern C++17.</li>
+            </ul>
+          </details>
+          <div class="tag-row">
+            <span class="tag">C++17</span><span class="tag">Networking</span><span class="tag">Multithreading</span><span class="tag">TLS/SNI</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">04 / TECHNICAL CAPABILITIES</span>
+          <h2 class="section-title">Tools of the <span class="serif-italic">craft</span></h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">Programming</h3>
+          <p>Python (OOP, Data Structures), SQL, C++, C#, JavaScript</p>
+        </div>
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">Machine Learning</h3>
+          <p>PyTorch, Neural Networks, Transformers, Self-Attention, NLP, Computer Vision, Model Evaluation (PSNR, SSIM, Baselines), Fine-Tuning, NumPy, Pandas, OpenCV</p>
+        </div>
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">Generative AI</h3>
+          <p>LLMs, Prompt Engineering, Embeddings, Vector Search, RAG, Tool Calling, MCP, LangChain, LangGraph</p>
+        </div>
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">Data &amp; Backend</h3>
+          <p>REST APIs, PostgreSQL, MySQL, Redis, Kafka, .NET</p>
+        </div>
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">MLOps &amp; Tools</h3>
+          <p>Git, GitLab, CI/CD, Docker, Linux, JFrog Artifactory, NuGet, PowerShell</p>
+        </div>
+        <div class="skill-card spotlight-card">
+          <h3 class="mono">Core Concepts</h3>
+          <p>Dataset Validation, Experiment Comparison, Distributed Systems, API Design</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Impact -->
+    <section id="education" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">05 / EDUCATION &amp; RECOGNITION</span>
+          <h2 class="section-title">Foundations &amp; <span class="serif-italic">problem solving</span></h2>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="info-card spotlight-card">
+          <span class="mono card-eyebrow">EDUCATION</span>
+          <h3>Dr. A.P.J. Abdul Kalam Technical University (AKTU)</h3>
+          <p class="muted">B.Tech. CSE — Artificial Intelligence &amp; Machine Learning</p>
+          <div class="meta-row mono">
+            <span>Lucknow, India</span>
+            <span>Sept. 2023 — Sept. 2027</span>
+          </div>
+          <div class="cgpa-pill mono">CGPA: 8.7 / 10.0</div>
+        </div>
+
+        <div class="info-card spotlight-card">
+          <span class="mono card-eyebrow">COMPETITIVE PROGRAMMING</span>
+          <h3>500+ DSA Problems Solved</h3>
+          <p class="muted">Ranked in the Top 20% in college coding competitions with consistent algorithmic practice across graphs, DP, and data structures.</p>
+          <div class="cp-links">
+            <a href="https://leetcode.com/u/Shivansh2145/" target="_blank" rel="noopener noreferrer" class="ext-pill">LeetCode Profile ↗</a>
+            <a href="https://codeforces.com/profile/Shiv2145" target="_blank" rel="noopener noreferrer" class="ext-pill">Codeforces Profile ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section reveal">
+      <div class="section-header">
+        <div>
+          <span class="section-kicker">06 / CERTIFICATIONS</span>
+          <h2 class="section-title">Verified <span class="serif-italic">credentials</span></h2>
+        </div>
+      </div>
+
+      <div class="certs-list">
+        <a href="https://github.com/Shivansh21-pixel/certificateIEEE/blob/main/Screenshot%202026-02-14%20001445.png" target="_blank" rel="noopener noreferrer" class="cert-row spotlight-card">
+          <div>
+            <h4>AI &amp; ML Workshop</h4>
+            <span class="muted">IIT Delhi</span>
+          </div>
+          <span class="mono cert-right">2024 · Verify ↗</span>
+        </a>
+
+        <a href="https://github.com/Shivansh21-pixel/certificateIEEE/blob/main/Screenshot%202026-02-14%20003920.png" target="_blank" rel="noopener noreferrer" class="cert-row spotlight-card">
+          <div>
+            <h4>IEEE Conference Certificate</h4>
+            <span class="muted">Sustainable Computing &amp; AI</span>
+          </div>
+          <span class="mono cert-right">2024 · Verify ↗</span>
+        </a>
+
+        <a href="https://edu.google.accredible.com/701ce6fc-89f3-4505-96b9-a3b31b92dcda" target="_blank" rel="noopener noreferrer" class="cert-row spotlight-card">
+          <div>
+            <h4>Gemini Certified Educator</h4>
+            <span class="muted">Google AI</span>
+          </div>
+          <span class="mono cert-right">2024 · Verify ↗</span>
+        </a>
+
+        <a href="https://www.udemy.com/certificate/UC-4e039ece-6ead-408b-9bce-2c581e194e9c/" target="_blank" rel="noopener noreferrer" class="cert-row spotlight-card">
+          <div>
+            <h4>Data Structures Certification</h4>
+            <span class="muted">Udemy</span>
+          </div>
+          <span class="mono cert-right">2024 · Verify ↗</span>
+        </a>
+
+        <a href="https://github.com/Shivansh21-pixel/certificateIEEE/blob/main/Screenshot%202026-02-14%20001240.png" target="_blank" rel="noopener noreferrer" class="cert-row spotlight-card">
+          <div>
+            <h4>Competitive Programming Summer Camp</h4>
+            <span class="muted">IICPC</span>
+          </div>
+          <span class="mono cert-right">2024 · Verify ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="footer reveal">
+      <div class="footer-card spotlight-card">
+        <span class="section-kicker">07 / CONNECT</span>
+        <h2 class="footer-title">Let’s build something <span class="serif-italic">meaningful</span>.</h2>
+        <p class="muted">Click to copy direct contact details or reach out on any platform below.</p>
+
+        <div class="copy-pills">
+          <button class="copy-pill mono" data-copy="shivanshpandey210501@gmail.com">
+            <span>shivanshpandey210501@gmail.com</span>
+            <span class="copy-badge">Copy</span>
+          </button>
+          <button class="copy-pill mono" data-copy="+91-7651859212">
+            <span>+91-7651859212</span>
+            <span class="copy-badge">Copy</span>
+          </button>
+        </div>
+
+        <div class="footer-links mono">
+          <a href="mailto:shivanshpandey210501@gmail.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/shivansh-pandey-8330b5279/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Shivansh21-pixel" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://leetcode.com/u/Shivansh2145/" target="_blank" rel="noopener noreferrer">LeetCode ↗</a>
+          <a href="https://codeforces.com/profile/Shiv2145" target="_blank" rel="noopener noreferrer">Codeforces ↗</a>
+          <a href="Shivansh_Pandey_Resume.pdf" download="Shivansh_Pandey_Resume.pdf">Resume PDF ↓</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom mono">
+        <span>© 2026 Shivansh Pandey</span>
+        <span>Shortcuts: <kbd>⌘K</kbd> / <kbd>/</kbd> Menu · <kbd>T</kbd> Theme</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Mobile Bottom Navigation Dock -->
+  <nav class="mobile-dock" id="mobileDock" aria-label="Mobile Navigation">
+    <a href="#lab" data-section="lab">Lab</a>
+    <a href="#experience" data-section="experience">Work</a>
+    <a href="#projects" data-section="projects">Projects</a>
+    <a href="#skills" data-section="skills">Stack</a>
+    <a href="#certifications" data-section="certifications">Certs</a>
+  </nav>
+
+  <!-- Command Palette Modal -->
+  <div class="modal-backdrop" id="cmdModal" aria-hidden="true">
+    <div class="cmd-dialog" role="dialog" aria-modal="true" aria-label="Command Palette">
+      <div class="cmd-input-wrap">
+        <input type="text" id="cmdInput" placeholder="Type a command or search links..." autocomplete="off" />
+        <kbd>ESC</kbd>
+      </div>
+      <ul class="cmd-list" id="cmdList"></ul>
+    </div>
+  </div>
+
+  <!-- Printable Resume Summary Modal -->
+  <div class="modal-backdrop" id="resumeModal" aria-hidden="true">
+    <div class="resume-dialog" role="dialog" aria-modal="true" aria-label="Resume Summary">
+      <div class="resume-bar no-print">
+        <span class="mono">Shivansh_Pandey_Resume</span>
+        <div class="resume-bar-actions">
+          <a href="Shivansh_Pandey_Resume.pdf" download="Shivansh_Pandey_Resume.pdf" class="btn btn-primary btn-sm">Download PDF ↓</a>
+          <button class="btn btn-secondary btn-sm" id="printResume">Print</button>
+          <button class="btn btn-ghost btn-sm" id="closeResumeModal">Close</button>
+        </div>
+      </div>
+      <div class="resume-sheet">
+        <div class="rs-head">
+          <h2>Shivansh Pandey</h2>
+          <p class="mono">+91-7651859212 · shivanshpandey210501@gmail.com</p>
+          <p class="mono rs-links">
+            <a href="https://www.linkedin.com/in/shivansh-pandey-8330b5279/" target="_blank">LinkedIn</a> ·
+            <a href="https://github.com/Shivansh21-pixel" target="_blank">GitHub</a> ·
+            <a href="https://shivanshportfolio-sigma.vercel.app/" target="_blank">Portfolio</a> ·
+            <a href="https://leetcode.com/u/Shivansh2145/" target="_blank">LeetCode</a> ·
+            <a href="https://codeforces.com/profile/Shiv2145" target="_blank">Codeforces</a>
+          </p>
+        </div>
+        <div class="rs-sec">
+          <h4>Summary</h4>
+          <p>AI &amp; ML undergraduate with strong Python and CS fundamentals, hands-on experience building RAG pipelines, embeddings-based vector search and deep-learning models in PyTorch, evaluated with defined metrics against baselines. Software engineering intern experienced in SQL data validation, REST APIs, CI/CD and Git-based workflows.</p>
+        </div>
+        <div class="rs-sec">
+          <h4>Education</h4>
+          <p><strong>Dr. A.P.J. Abdul Kalam Technical University (AKTU)</strong> — B.Tech. CSE (AI &amp; ML), CGPA: 8.7/10.0 (Sept. 2023 – Sept. 2027)</p>
+        </div>
+        <div class="rs-sec">
+          <h4>Experience</h4>
+          <p><strong>Software Engineering Intern, Landis+Gyr</strong> (June 2026 – Present, Noida) — SQL/PostgreSQL validation for 4.2/4.2 MR1 vs 4.3 releases, Emerge 4.3 administration (DAS/Non-DAS/DLMS/E2E DLMS), Liquibase &amp; CIM tooling analysis, and .NET 10 NuGet migration via JFrog Artifactory &amp; GitLab.</p>
+        </div>
+        <div class="rs-sec">
+          <h4>Key Projects</h4>
+          <ul>
+            <li><strong>OlemoN:</strong> C++17 Vector DB (HNSW, KD-Tree, Brute K-NN) + Ollama/Llama 3.2 768-d RAG &amp; PCA visualization.</li>
+            <li><strong>NAFNet-Lite:</strong> PyTorch semiconductor image denoising &amp; 2x upscaling (28.79 dB PSNR, 0.7709 SSIM, +0.9 dB vs Tiny CNN).</li>
+            <li><strong>WireSpy:</strong> Multithreaded C++17 DPI engine (Ethernet/IPv4/TCP/UDP, 5-tuple hashing, TLS/SNI &amp; HTTP Host; 69 forwarded / 8 dropped).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
